@@ -2,7 +2,7 @@
 # Build container and push it to registry
 ./build.sh
 
-docker tag -f paralect/teamcity paralect/teamcity:9.1.5
+docker tag -f paralect/teamcity paralect/teamcity:9.1.6
 
 #push updated image
-docker push paralect/teamcity:9.1.5
+docker push paralect/teamcity:9.1.6
