@@ -1,6 +1,6 @@
 FROM java:7
 
-ENV TEAMCITY_PACKAGE TeamCity-9.1.6.tar.gz
+ENV TEAMCITY_PACKAGE TeamCity-9.1.7.tar.gz
 ENV TEAMCITY_DOWNLOAD http://download.jetbrains.com/teamcity
 
 RUN apt-get -y install tar wget
